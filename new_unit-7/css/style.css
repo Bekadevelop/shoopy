@@ -1,0 +1,35 @@
+.block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black; 
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    
+}
+.block::before{
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: red;  
+  position: absolute;
+  bottom: 100px;
+  left:  -25px;
+  
+}
+.block::after{
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: red;  
+    position: absolute; 
+    bottom: -25px;
+    right: -25px;
+}
+
+
+
+
+    

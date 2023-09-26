@@ -1,0 +1,9 @@
+span{
+    background-color: orange;
+    padding: 10px;
+    display: block;
+}
+div{
+background-color: aqua;
+display: inline;
+}

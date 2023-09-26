@@ -1,0 +1,64 @@
+.rect{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+}
+.sq{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.p1{
+    position: absolute;  
+}
+
+.p2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.p3{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.p4{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.p5{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.rect-2{
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative; 
+    background-color: blue;
+   
+}
+.rect-3{
+    width: 160px;
+    height: 300px;
+    margin: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative; 
+    left: 155px; 
+    bottom: 250px;
+    background-color: aqua;
+}
+.rect-4{
+    width: 180px;
+    height: 500px;
+    margin: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative; 
+    left: 320px; 
+    bottom: 700px;
+    background-color: blueviolet;

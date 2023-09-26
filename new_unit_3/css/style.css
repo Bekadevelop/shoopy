@@ -1,0 +1,23 @@
+body{
+font-family: Arial, Helvetica, sans-serif;  
+margin: 50px 55px 60px 65px;  
+}
+.span-red{
+color: red;
+}
+
+.span-bold-red{
+color: red;
+font-weight: bold ;
+}
+.span-brown{
+color: darkred;
+font-weight: normal;
+}
+.span-ul-green{
+color: yellowgreen;
+text-decoration: underline;
+}
+.span-i-red{
+color: red;
+}
